@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   if (!token || !user) {
     alert("Please login to continue.");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
     return;
   }
 
