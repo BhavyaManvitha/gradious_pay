@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gradious Pay</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="icon" type="image/png" href="images/logo.png" />
+</head>
+<body>
+    <header class="navbar">
+    <div class="nav-left">
+      <div class="logo">
+    <img src="images/logo.png" alt="Gradious Pay Logo" class="logo-icon" />
+    <span class="logo-text">
+      <span class="gradious">Gradious</span>
+      <span class="pay">Pay</span>
+    </span>
+  </div>
+    </div>
+    <nav class="nav-right">
+      <a href="index.html" class="nav-item ">Dashboard</a>
+      <a href="transactions.html" class="nav-item ">Transactions</a>
+      <a href="sendMoney.html" class="nav-item">Send Money</a>
+      <a href="receive.html" class="nav-item">Receive</a>
+      <a href="bank.html" class="nav-item">Bank Accounts</a>
+      <a href="settings.html" class="nav-item active">Settings</a>
+    </nav>
+  </header>
+
+  <div class="settings-page">
+    <h2 class="section-title"><i class="fas fa-cog"></i> Settings</h2>
+
+    
+    <div class="setting-card user-card">
+      <img src="https://i.pravatar.cc/100?img=2" alt="User" />
+      <div>
+        <h3>Bhavya Manvitha</h3>
+        <p>bhavyamanvitha@email.com</p>
+      </div>
+    </div>
+
+    
+    <div class="setting-card">
+      <h4>Preferences</h4>
+      <div class="setting-row">
+        <span><i class="fas fa-adjust"></i> Dark Mode</span>
+        <input type="checkbox" />
+      </div>
+      <div class="setting-row">
+        <span><i class="fas fa-language"></i> Language</span>
+        <select>
+          <option>English</option>
+          <option>Hindi</option>
+          <option>Telugu</option>
+        </select>
+      </div>
+    </div>
+
+    
+    <div class="setting-card">
+      <h4>Security</h4>
+      <div class="setting-row">
+        <span><i class="fas fa-lock"></i> Change UPI PIN</span>
+        <button class="mini-btn">Change</button>
+      </div>
+      <div class="setting-row">
+        <span><i class="fas fa-fingerprint"></i> Biometric Login</span>
+        <input type="checkbox" checked />
+      </div>
+    </div>
+
+    
+    <div class="setting-card">
+      <h4>Notifications</h4>
+      <div class="setting-row">
+        <span><i class="fas fa-bell"></i> Transaction Alerts</span>
+        <input type="checkbox" checked />
+      </div>
+      <div class="setting-row">
+        <span><i class="fas fa-tags"></i> Offers & Deals</span>
+        <input type="checkbox" />
+      </div>
+    </div>
+
+    
+    <button class="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+
+  </div>
+<script src="js/script.js"></script>
+</body>
+</html>
